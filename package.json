@@ -1,0 +1,36 @@
+{
+  "name": "nft-collection-api",
+  "version": "1.0.0",
+  "description": "Node.js API for NFT collections supporting diverse features",
+  "main": "main.js",
+  "dependencies": {
+    "@kleros/file-to-ipfs": "^0.3.2",
+    "dotenv": "^10.0.0",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node scripts/start.js",
+    "shuffle": "node scripts/shuffle.js",
+    "upload_images_gcs": "GOOGLE_APPLICATION_CREDENTIALS=gcs.json node scripts/upload_images_gcs.js",
+    "upload_images_ipfs": "node scripts/upload_images_ipfs.js",
+    "remove_none_traits": "node scripts/remove_none_traits.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilosofiaCodigo/nft-collection-api.git"
+  },
+  "keywords": [
+    "nft",
+    "metadata",
+    "json",
+    "api"
+  ],
+  "author": "Filosofía Código",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FilosofiaCodigo/nft-collection-api/issues"
+  },
+  "homepage": "https://github.com/FilosofiaCodigo/nft-collection-api#readme"
+}
