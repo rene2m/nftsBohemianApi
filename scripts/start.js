@@ -1,11 +1,11 @@
 var MAX_SUPPLY = null
-const CONTRACT_ADDRESS = "0xBfe7f07224c0cEB5B164649e92E7772E6D859B9A"
+const CONTRACT_ADDRESS = "0xDE9235adF1660f25f52F8960E2EC103A58a40712"
 const PORT = 3000
 const IS_REVEALED = true
 const UNREVEALED_METADATA = {
-  "name":"Unrevealed Croc",
+  "name":"Unrevealed bfc",
   "description":"???",
-  "image":"http://134.209.33.178:3000/unrevealed/image.png",
+  "image":"http://167.172.136.241:3000/unrevealed/image.png",
   "attributes":[{"???":"???"}]
 }
 
